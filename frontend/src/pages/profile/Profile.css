@@ -1,0 +1,44 @@
+/* Profile Container */
+.profile-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* User Info Section */
+.user-info {
+  margin-bottom: 20px;
+}
+
+.user-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* User List Link */
+.user-list-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.user-list-link:hover {
+  background-color: #0056b3;
+}
