@@ -52,13 +52,8 @@ Note : in your case, the port will be whatever port you have used
 
 6. Go to frontend 
 
- ```bash
-  cd .. 
-    ```
- and
-
- ```bash
-  cd frontend 
-    ```
+```
+cd .. and then cd frontend 
+```
 
 
