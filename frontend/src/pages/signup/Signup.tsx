@@ -7,8 +7,7 @@ import "./Signup.css";
 import { IUserFormData } from "../../interface/interface";
 import { registerUser } from "../../redux/actions/userActions";
 
-
-export default function Signup() {
+const Signup : React.FC = () =>  {
   const defaultData: IUserFormData = {
     firstName: "",
     lastName: "",
@@ -130,3 +129,5 @@ export default function Signup() {
     </div>
   );
 }
+
+export default Signup;

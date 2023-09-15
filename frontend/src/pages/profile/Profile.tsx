@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 import "./Profile.css"; 
 import { userProfileAction } from "../../redux/actions/userActions";
 
-const Profile = () => {
+const Profile : React.FC = () => {
   const dispatch:any = useDispatch();
   const userProfile = useSelector((state: any) => state.users);
-
   const user = userProfile?.userProfile;
 
   useEffect(() => {
