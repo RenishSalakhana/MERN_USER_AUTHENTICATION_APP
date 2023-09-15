@@ -55,7 +55,7 @@ Note : in your case, the port will be whatever port you have used
  ```bash
   cd .. 
     ```
-  & 
+ and
 
  ```bash
   cd frontend 
