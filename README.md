@@ -20,3 +20,10 @@ A complete MERN application for authentication using typescript, express, sequel
 ##### `Sequelize (sequelize-cli)` 🧞‍♂️
 ##### `TyepeScript` 🪛 🚫🔍
 ##### `Passport Authnetication` 🧭 ⚠️
+
+## :rocket: Installation
+1. Get the code
+
+    ```bash
+    git clone git@github.com:https://github.com/RenishSalakhana/MERN_USER_AUTHENTICATION_APP.git && cd MERN_USER_AUTHENTICATION_APP
+    ```
