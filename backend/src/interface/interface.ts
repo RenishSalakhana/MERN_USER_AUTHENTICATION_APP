@@ -6,3 +6,15 @@ export interface IUsers {
     username: string;
     password: string;
   }
+  export interface IUserValidation {
+    firstName: string;
+    lastName: string;
+    username: string;
+    email: string;
+    password: string;
+  }
+
+  export interface IUserLoginValidation {
+    email: string;
+    password: string;
+  }

@@ -6,15 +6,13 @@ import sequelize from "./database/database";
 import passport from "./middleware/passportMiddleware";
 import userRouter from "./routes/userRoutes";
 const express = require('express');
-require("dotenv").config();
 
 sequelize.sync().then(() => {
   console.log('Database is synchronized....');
 });
 
 const app = express();
-// app.use(bodyParser.json());
-app.use(express.json());
+app.use(bodyParser.json());
 app.use(cors());
 
 app.use(

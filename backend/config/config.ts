@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 export const CONFIG = {
     PORT: {
       PORT: process.env.PORT || 8080,
