@@ -55,5 +55,13 @@ Note : in your case, the port will be whatever port you have used
 ```
 cd .. and then cd frontend 
 ```
+7. Install dependencies in frontend
 
-
+```
+npm install
+``` 
+8. Run the server
+    
+    ```bash
+   npm start 
+    ```
