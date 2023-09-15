@@ -28,7 +28,7 @@ const register = async (req: Request, res: Response) => {
     console.log(error);
     res.status(500).json({
       status: false,
-      error
+      error,
     });
   }
 };
