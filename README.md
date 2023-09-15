@@ -52,8 +52,8 @@ Note : in your case, the port will be whatever port you have used
 
 6. Go to frontend 
 
-  ```bash
-   cd .. then cd frontend
+ ```bash
+  cd .. & then cd frontend
     ```
 7. Install dependencies in frontend
     
