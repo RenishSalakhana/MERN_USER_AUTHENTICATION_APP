@@ -27,3 +27,42 @@ A complete MERN application for authentication using typescript, express, sequel
     ```bash
     git clone git@github.com:https://github.com/RenishSalakhana/MERN_USER_AUTHENTICATION_APP.git && cd MERN_USER_AUTHENTICATION_APP
     ```
+2. Install dependencies in main
+
+    ```bash
+    npm install
+    ```
+3. Go to backend
+   
+   ```bash
+   cd backend 
+    ```
+4. Install dependencies in backend 
+    
+    ```bash
+    npm install
+    ```
+5. Run the server
+    
+    ```bash
+   npm start 
+    ```
+in your terminal, you might see `"Your server is running on port : 3000/3001/8080/8081"`
+Note : in your case, the port will be whatever port you have used 
+
+6. Go to frontend 
+
+  ```bash
+   cd .. then cd frontend
+    ```
+7. Install dependencies in frontend
+    
+    ```bash
+    npm install
+    ```
+8. Run the server
+ 
+    ```bash
+   npm start 
+    ```
+
