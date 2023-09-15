@@ -3,8 +3,9 @@ import { Table } from "antd";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { userListAction } from "../../redux/actions/userActions";
+import { columns } from "../../constants/Constant";
 
-const UserList = () => {
+const UserList : React.FC = () => {
   const dispatch:any = useDispatch();
   const userList = useSelector((state: any) => state.users);
 
@@ -16,28 +17,6 @@ const UserList = () => {
     userLists();
   }, [dispatch]);
 
-  const columns = [
-    {
-      title: "First Name",
-      dataIndex: "firstName",
-      key: "firstName",
-    },
-    {
-      title: "Last Name",
-      dataIndex: "lastName",
-      key: "lastName",
-    },
-    {
-      title: "Username",
-      dataIndex: "username",
-      key: "username",
-    },
-    {
-      title: "Email",
-      dataIndex: "email",
-      key: "email",
-    },
-  ];
 
   return (
     <React.Fragment>

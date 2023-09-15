@@ -9,7 +9,7 @@ import { LoginProps } from "../../interface/interface";
 import "./Login.css";
 import { loginUser } from "../../redux/actions/userActions";
 
-const Login = () => {
+const Login : React.FC = () => {
   const defaultData: LoginProps = {
     email: "",
     password: "",
