@@ -25,7 +25,7 @@ const UserList : React.FC = () => {
         {userList?.users?.length === 0 ? (
           <div>
             <p>User list not available. Please register first.</p>
-            <Link to="/signup">Register</Link>
+            <Link to="/register">Register</Link>
           </div>
         ) : (
           userList?.users?.map((value:any, index:number) => (

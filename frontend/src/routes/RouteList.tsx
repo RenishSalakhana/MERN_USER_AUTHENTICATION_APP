@@ -44,7 +44,7 @@ const RouteList = () => {
           />
         )}
         <Route
-          path="/signup"
+          path="/register"
           element={
             <Suspense fallback={<Loader />}>
               <SignupLazy />

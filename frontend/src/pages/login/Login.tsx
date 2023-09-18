@@ -83,7 +83,7 @@ const Login : React.FC = () => {
           >
             Log in
           </Button>
-         <Link to="/signup">Don't have an account? Signup here</Link>
+         <Link to="/register">Don't have an account? Signup here</Link>
         </Form.Item>
         {loginSuccess && <p>Login successfully done!</p>}
       </Form>

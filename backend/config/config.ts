@@ -18,7 +18,7 @@ export const CONFIG = {
   export const PATH_LIST = {
      user : {
       login:"/",
-      register:"/signup",
+      register:"/register",
       profile:"/profile",
       list:"/list",
     }
