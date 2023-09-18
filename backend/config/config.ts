@@ -13,3 +13,13 @@ export const CONFIG = {
       DB_DIALECT: process.env.DB_DIALECT || "mysql",
     },
   };
+
+  //user route path
+  export const PATH_LIST = {
+     user : {
+      login:"/",
+      register:"/signup",
+      profile:"/profile",
+      list:"/list",
+    }
+  }
